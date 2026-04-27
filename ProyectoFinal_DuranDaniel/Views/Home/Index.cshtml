@@ -82,19 +82,16 @@
         <div class="menu">
             @if (ViewBag.Rol == "Administrador")
             {
-                <a class="btn" href="/Carreras/Index">Ver / Gestionar Carreras</a>
-                <a class="btn" href="/Usuarios">Ver Usuarios</a>
-                <a class="btn" href="/Cursos">Ver / Gestionar Cursos</a>
+                <a class="btn" href="/Admin/Index">Panel de Administración</a>
             }
             else if (ViewBag.Rol == "Docente")
             {
-                <a class="btn" href="/Carreras">Ver Carreras</a>
-                <a class="btn" href="/Cursos">Ver Cursos</a>
+                <a class="btn" href="/Docente/MisCursos">Mis Cursos Asignados</a>
             }
             else
             {
-                <a class="btn" href="/Carreras/Index">Ver Carreras Disponibles</a>
-                <a class="btn" href="/Matriculas">Mis Matrículas</a>
+                <a class="btn" href="/Estudiante/Carreras">Seleccionar Carrera y Matricularme</a>
+                <a class="btn" href="/Estudiante/MisCursos">Mis Cursos Matriculados</a>
             }
             <a class="btn logout" href="/Auth/Logout">Cerrar Sesión</a>
         </div>

@@ -6,12 +6,16 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8" />
-    <title>Menú Administración</title>
+    <title>Panel Administración</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             background: #f0f2f5;
-            padding: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
         }
 
         .card {
@@ -19,19 +23,18 @@
             padding: 2rem;
             border-radius: 8px;
             box-shadow: 0 2px 8px rgba(0,0,0,.1);
-            max-width: 500px;
-            margin: auto;
+            width: 420px;
         }
 
         h2 {
             color: #333;
+            margin-bottom: 1.5rem;
         }
 
         .grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 1rem;
-            margin-top: 1.5rem;
         }
 
         a.btn {
@@ -59,15 +62,14 @@
 </head>
 <body>
     <div class="card">
-        <h2>Menú Administración</h2>
+        <h2>Panel de Administración</h2>
         <div class="grid">
             <a class="btn" href="/Admin/Docentes">Docentes</a>
             <a class="btn" href="/Admin/Estudiantes">Estudiantes</a>
-            <a class="btn" href="/Admin/Carreras">Carreras</a>
-            <a class="btn" href="/Admin/Cursos">Cursos</a>
-            <a class="btn" href="/Admin/Roles">Roles</a>
+            <a class="btn" href="/Carreras/Index">Carreras</a>
+            <a class="btn" href="/Cursoes/Index">Cursos</a>
         </div>
-        <a class="back" href="/Home/Index">← Atrás</a>
+        <a class="back" href="/Home/Index">← Volver al inicio</a>
     </div>
 </body>
 </html>

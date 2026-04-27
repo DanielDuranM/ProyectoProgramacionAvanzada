@@ -28,6 +28,14 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
+[C:/Users/danon/OneDrive/Documents/GitHub/ProyectoProgramacionAvanzada/ProyectoFinal_DuranDaniel/Views/Admin/Docentes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRG9jZW50ZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/danon/OneDrive/Documents/GitHub/ProyectoProgramacionAvanzada/ProyectoFinal_DuranDaniel/Views/Admin/Estudiantes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRXN0dWRpYW50ZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/danon/OneDrive/Documents/GitHub/ProyectoProgramacionAvanzada/ProyectoFinal_DuranDaniel/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -78,6 +86,30 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/danon/OneDrive/Documents/GitHub/ProyectoProgramacionAvanzada/ProyectoFinal_DuranDaniel/Views/Cursoes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29lc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/danon/OneDrive/Documents/GitHub/ProyectoProgramacionAvanzada/ProyectoFinal_DuranDaniel/Views/Docente/DetalleCurso.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jZW50ZVxEZXRhbGxlQ3Vyc28uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/danon/OneDrive/Documents/GitHub/ProyectoProgramacionAvanzada/ProyectoFinal_DuranDaniel/Views/Docente/MisCursos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jZW50ZVxNaXNDdXJzb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/danon/OneDrive/Documents/GitHub/ProyectoProgramacionAvanzada/ProyectoFinal_DuranDaniel/Views/Estudiante/Carreras.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZVxDYXJyZXJhcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/danon/OneDrive/Documents/GitHub/ProyectoProgramacionAvanzada/ProyectoFinal_DuranDaniel/Views/Estudiante/Cursos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZVxDdXJzb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/danon/OneDrive/Documents/GitHub/ProyectoProgramacionAvanzada/ProyectoFinal_DuranDaniel/Views/Estudiante/Estudiante.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZVxFc3R1ZGlhbnRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/danon/OneDrive/Documents/GitHub/ProyectoProgramacionAvanzada/ProyectoFinal_DuranDaniel/Views/Estudiante/MisCursos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZVxNaXNDdXJzb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/danon/OneDrive/Documents/GitHub/ProyectoProgramacionAvanzada/ProyectoFinal_DuranDaniel/Views/Home/Index.cshtml]

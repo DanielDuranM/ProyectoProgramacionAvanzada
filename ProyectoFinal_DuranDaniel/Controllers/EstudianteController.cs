@@ -7,81 +7,80 @@ namespace ProyectoFinal_DuranDaniel.Controllers
 {
     public class EstudianteController : Controller
     {
-        private readonly AppDbContext _db;
+        private readonly AppDbContext _context;
 
-        public EstudianteController(AppDbContext db)
+        public EstudianteController(AppDbContext context)
         {
-            _db = db;
+            _context = context;
         }
 
-        private int? ObtenerIdUsuario()
-            => HttpContext.Session.GetInt32("UsuarioId");
+        private int? GetUserId() => HttpContext.Session.GetInt32("UsuarioId");
+        private bool EsEstudiante() => HttpContext.Session.GetString("UsuarioRol") == "Estudiante";
 
-        // GET: /Estudiante/Carreras — Elegir carrera
+        // GET: /Estudiante/Carreras
         public async Task<IActionResult> Carreras()
         {
-            if (ObtenerIdUsuario() == null) return RedirectToAction("Login", "Auth");
-
-            var carreras = await _db.Carreras.ToListAsync();
-            return View(carreras);
+            if (!EsEstudiante()) return RedirectToAction("Login", "Auth");
+            var carreras = await _context.Carreras.ToListAsync();
+            return View("~/Views/Estudiante/Carreras.cshtml", carreras);
         }
 
-        // GET: /Estudiante/Cursos?carreraId=1 — Ver cursos de la carrera
+        // GET: /Estudiante/Cursos?carreraId=1
         public async Task<IActionResult> Cursos(int carreraId)
         {
-            var uid = ObtenerIdUsuario();
-            if (uid == null) return RedirectToAction("Login", "Auth");
+            if (!EsEstudiante()) return RedirectToAction("Login", "Auth");
 
-            var cursos = await _db.Cursos
-                .Include(c => c.Carrera)
+            var uid = GetUserId();
+            var carrera = await _context.Carreras.FindAsync(carreraId);
+            if (carrera == null) return NotFound();
+
+            var cursos = await _context.Cursos
                 .Include(c => c.Docente)
                 .Where(c => c.CarreraId == carreraId)
                 .ToListAsync();
 
-            // IDs de cursos en los que ya está matriculado
-            var matriculados = await _db.Matriculas
+            var matriculados = await _context.Matriculas
                 .Where(m => m.EstudianteId == uid)
                 .Select(m => m.CursoId)
                 .ToListAsync();
 
+            ViewBag.Carrera = carrera;
             ViewBag.Matriculados = matriculados;
-            ViewBag.CarreraId = carreraId;
-            return View(cursos);
+            return View("~/Views/Estudiante/Cursos.cshtml", cursos);
         }
 
-        // POST: /Estudiante/Matricular — Matricularse en un curso
+        // POST: /Estudiante/Matricular — vía AJAX
         [HttpPost]
-        public async Task<IActionResult> Matricular(int cursoId, int carreraId)
+        [IgnoreAntiforgeryToken]
+        public async Task<IActionResult> Matricular([FromBody] MatricularRequest request)
         {
-            var uid = ObtenerIdUsuario();
-            if (uid == null) return RedirectToAction("Login", "Auth");
+            var uid = GetUserId();
+            if (uid == null) return Json(new { ok = false, msg = "Sesión expirada" });
 
-            // Verificar si ya está matriculado
-            bool yaMatriculado = await _db.Matriculas
-                .AnyAsync(m => m.EstudianteId == uid && m.CursoId == cursoId);
+            bool yaMatriculado = await _context.Matriculas
+                .AnyAsync(m => m.EstudianteId == uid && m.CursoId == request.CursoId);
 
-            if (!yaMatriculado)
+            if (yaMatriculado)
+                return Json(new { ok = false, msg = "Ya estás matriculado en este curso" });
+
+            _context.Matriculas.Add(new Matricula
             {
-                _db.Matriculas.Add(new Matricula
-                {
-                    EstudianteId = uid.Value,
-                    CursoId = cursoId,
-                    FechaMatricula = DateTime.Now,
-                    Estado = "Matriculado"
-                });
-                await _db.SaveChangesAsync();
-            }
-
-            return RedirectToAction("Cursos", new { carreraId });
+                EstudianteId = uid.Value,
+                CursoId = request.CursoId,
+                FechaMatricula = DateTime.Now,
+                Estado = "Matriculado"
+            });
+            await _context.SaveChangesAsync();
+            return Json(new { ok = true, msg = "Matriculado exitosamente" });
         }
 
-        // GET: /Estudiante/MisCursos — Ver cursos en los que está matriculado
+        // GET: /Estudiante/MisCursos
         public async Task<IActionResult> MisCursos()
         {
-            var uid = ObtenerIdUsuario();
-            if (uid == null) return RedirectToAction("Login", "Auth");
+            if (!EsEstudiante()) return RedirectToAction("Login", "Auth");
 
-            var matriculas = await _db.Matriculas
+            var uid = GetUserId();
+            var matriculas = await _context.Matriculas
                 .Include(m => m.Curso)
                     .ThenInclude(c => c.Carrera)
                 .Include(m => m.Curso)
@@ -91,5 +90,11 @@ namespace ProyectoFinal_DuranDaniel.Controllers
 
             return View(matriculas);
         }
+    }
+
+    // Clase auxiliar para recibir el JSON del AJAX
+    public class MatricularRequest
+    {
+        public int CursoId { get; set; }
     }
 }

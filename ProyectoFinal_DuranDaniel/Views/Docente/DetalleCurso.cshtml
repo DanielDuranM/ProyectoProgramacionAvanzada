@@ -1,0 +1,129 @@
+﻿@model ProyectoFinal_DuranDaniel.Models.Curso
+@{
+    ViewData["Title"] = "Detalle Curso";
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>@Model.Nombre — Detalle</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f2f5;
+            padding: 2rem;
+        }
+
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,.1);
+            max-width: 700px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .meta {
+            color: #666;
+            font-size: .9rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #e3f2fd;
+            color: #1565c0;
+            padding: .3rem .8rem;
+            border-radius: 12px;
+            font-size: .8rem;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+
+        th {
+            background: #1a73e8;
+            color: white;
+            padding: .7rem 1rem;
+            text-align: left;
+        }
+
+        td {
+            padding: .6rem 1rem;
+            border-bottom: 1px solid #eee;
+        }
+
+        tr:hover td {
+            background: #f9f9f9;
+        }
+
+        .empty {
+            color: #666;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        a.back {
+            display: inline-block;
+            margin-top: 1.5rem;
+            color: #1a73e8;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>@Model.Nombre</h2>
+        <div class="meta">
+            Carrera: <strong>@Model.Carrera.Nombre</strong> &nbsp;|&nbsp;
+            Total estudiantes: <span class="badge">@Model.Matriculas.Count</span>
+        </div>
+
+        @if (!Model.Matriculas.Any())
+        {
+            <div class="empty">No hay estudiantes matriculados en este curso.</div>
+        }
+        else
+        {
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Correo</th>
+                        <th>Fecha Matrícula</th>
+                        <th>Estado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        int i = 1;
+                    }
+                    @foreach (var m in Model.Matriculas)
+                    {
+                        <tr>
+                            <td>@i++</td>
+                            <td>@m.Estudiante.Nombre</td>
+                            <td>@m.Estudiante.Apellido</td>
+                            <td>@m.Estudiante.CorreoPersonal</td>
+                            <td>@m.FechaMatricula.ToString("dd/MM/yyyy")</td>
+                            <td>@m.Estado</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+
+        <a class="back" href="/Docente/MisCursos">← Volver a mis cursos</a>
+    </div>
+</body>
+</html>

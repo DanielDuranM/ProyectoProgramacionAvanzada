@@ -3,16 +3,80 @@
   "WorkspaceRootPath": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\onedrive\\documents\\github\\proyectoprogramacionavanzada\\proyectofinal_durandaniel\\views\\estudiante\\carreras.cshtml||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:views\\estudiante\\carreras.cshtml||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\onedrive\\documents\\github\\proyectoprogramacionavanzada\\proyectofinal_durandaniel\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\onedrive\\documents\\github\\proyectoprogramacionavanzada\\proyectofinal_durandaniel\\controllers\\cursoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:controllers\\cursoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\onedrive\\documents\\github\\proyectoprogramacionavanzada\\proyectofinal_durandaniel\\controllers\\carrerascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:controllers\\carrerascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\onedrive\\documents\\github\\proyectoprogramacionavanzada\\proyectofinal_durandaniel\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\onedrive\\documents\\github\\proyectoprogramacionavanzada\\proyectofinal_durandaniel\\views\\admin\\estudiantes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:views\\admin\\estudiantes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\onedrive\\documents\\github\\proyectoprogramacionavanzada\\proyectofinal_durandaniel\\views\\admin\\docentes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:views\\admin\\docentes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\onedrive\\documents\\github\\proyectoprogramacionavanzada\\proyectofinal_durandaniel\\controllers\\estudiantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:controllers\\estudiantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\onedrive\\documents\\github\\proyectoprogramacionavanzada\\proyectofinal_durandaniel\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\onedrive\\documents\\github\\proyectoprogramacionavanzada\\proyectofinal_durandaniel\\views\\estudiante\\cursos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:views\\estudiante\\cursos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\onedrive\\documents\\github\\proyectoprogramacionavanzada\\proyectofinal_durandaniel\\views\\estudiante\\carreras.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:views\\estudiante\\carreras.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\onedrive\\documents\\github\\proyectoprogramacionavanzada\\proyectofinal_durandaniel\\views\\cursoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:views\\cursoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\onedrive\\documents\\github\\proyectoprogramacionavanzada\\proyectofinal_durandaniel\\views\\carreras\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:views\\carreras\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\onedrive\\documents\\github\\proyectoprogramacionavanzada\\proyectofinal_durandaniel\\views\\estudiante\\estudiante.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:views\\estudiante\\estudiante.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\onedrive\\documents\\github\\proyectoprogramacionavanzada\\proyectofinal_durandaniel\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\onedrive\\documents\\github\\proyectoprogramacionavanzada\\proyectofinal_durandaniel\\views\\docente\\detallecurso.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:views\\docente\\detallecurso.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\onedrive\\documents\\github\\proyectoprogramacionavanzada\\proyectofinal_durandaniel\\views\\docente\\detallecurso.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:views\\docente\\detallecurso.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\onedrive\\documents\\github\\proyectoprogramacionavanzada\\proyectofinal_durandaniel\\views\\docente\\miscursos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:views\\docente\\miscursos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\onedrive\\documents\\github\\proyectoprogramacionavanzada\\proyectofinal_durandaniel\\controllers\\docentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:controllers\\docentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\onedrive\\documents\\github\\proyectoprogramacionavanzada\\proyectofinal_durandaniel\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\onedrive\\documents\\github\\proyectoprogramacionavanzada\\proyectofinal_durandaniel\\views\\estudiante\\miscursos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:views\\estudiante\\miscursos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +86,254 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CursoesController.cs",
+              "DocumentMoniker": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Controllers\\CursoesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CursoesController.cs",
+              "ToolTip": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Controllers\\CursoesController.cs",
+              "RelativeToolTip": "Controllers\\CursoesController.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAAwJgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T19:23:22.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CarrerasController.cs",
+              "DocumentMoniker": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Controllers\\CarrerasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CarrerasController.cs",
+              "ToolTip": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Controllers\\CarrerasController.cs",
+              "RelativeToolTip": "Controllers\\CarrerasController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAAEkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T19:23:17.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAADwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T18:49:03.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Estudiantes.cshtml",
+              "DocumentMoniker": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Views\\Admin\\Estudiantes.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Estudiantes.cshtml",
+              "ToolTip": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Views\\Admin\\Estudiantes.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Estudiantes.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T18:50:00.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Docentes.cshtml",
+              "DocumentMoniker": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Views\\Admin\\Docentes.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Docentes.cshtml",
+              "ToolTip": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Views\\Admin\\Docentes.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Docentes.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAK8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T18:49:39.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswEQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T02:00:20.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DetalleCurso.cshtml",
+              "DocumentMoniker": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Views\\Docente\\DetalleCurso.cshtml",
+              "RelativeDocumentMoniker": "Views\\Docente\\DetalleCurso.cshtml",
+              "ToolTip": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Views\\Docente\\DetalleCurso.cshtml",
+              "RelativeToolTip": "Views\\Docente\\DetalleCurso.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAIwIAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T18:48:37.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Carreras.cshtml",
               "DocumentMoniker": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Views\\Estudiante\\Carreras.cshtml",
               "RelativeDocumentMoniker": "Views\\Estudiante\\Carreras.cshtml",
               "ToolTip": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Views\\Estudiante\\Carreras.cshtml",
               "RelativeToolTip": "Views\\Estudiante\\Carreras.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAIwCUAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-27T02:16:38.526Z",
+              "WhenOpened": "2026-04-27T19:08:11.824Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
+              "Title": "Cursos.cshtml",
+              "DocumentMoniker": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Views\\Estudiante\\Cursos.cshtml",
+              "RelativeDocumentMoniker": "Views\\Estudiante\\Cursos.cshtml",
+              "ToolTip": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Views\\Estudiante\\Cursos.cshtml",
+              "RelativeToolTip": "Views\\Estudiante\\Cursos.cshtml",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAAAJAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T19:10:09.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Views\\Cursoes\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cursoes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Views\\Cursoes\\Index.cshtml",
+              "RelativeToolTip": "Views\\Cursoes\\Index.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAowDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T19:12:47.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAwwGMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T18:40:23.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "EstudianteController.cs",
               "DocumentMoniker": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Controllers\\EstudianteController.cs",
               "RelativeDocumentMoniker": "Controllers\\EstudianteController.cs",
               "ToolTip": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Controllers\\EstudianteController.cs",
               "RelativeToolTip": "Controllers\\EstudianteController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-27T02:00:43.255Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Views\\Carreras\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Carreras\\Index.cshtml",
+              "ToolTip": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Views\\Carreras\\Index.cshtml",
+              "RelativeToolTip": "Views\\Carreras\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T18:56:22.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Estudiante.cshtml",
+              "DocumentMoniker": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Views\\Estudiante\\Estudiante.cshtml",
+              "RelativeDocumentMoniker": "Views\\Estudiante\\Estudiante.cshtml",
+              "ToolTip": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Views\\Estudiante\\Estudiante.cshtml",
+              "RelativeToolTip": "Views\\Estudiante\\Estudiante.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T18:39:42.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DetalleCurso.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Views\\Docente\\DetalleCurso.cshtml.cs",
+              "RelativeDocumentMoniker": "Views\\Docente\\DetalleCurso.cshtml.cs",
+              "ToolTip": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Views\\Docente\\DetalleCurso.cshtml.cs",
+              "RelativeToolTip": "Views\\Docente\\DetalleCurso.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T02:00:20.215Z"
+              "WhenOpened": "2026-04-27T18:50:25.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MisCursos.cshtml",
+              "DocumentMoniker": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Views\\Docente\\MisCursos.cshtml",
+              "RelativeDocumentMoniker": "Views\\Docente\\MisCursos.cshtml",
+              "ToolTip": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Views\\Docente\\MisCursos.cshtml",
+              "RelativeToolTip": "Views\\Docente\\MisCursos.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T18:47:44.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DocenteController.cs",
+              "DocumentMoniker": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Controllers\\DocenteController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DocenteController.cs",
+              "ToolTip": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Controllers\\DocenteController.cs",
+              "RelativeToolTip": "Controllers\\DocenteController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T18:47:16.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAUwFIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T18:41:57.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MisCursos.cshtml",
+              "DocumentMoniker": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Views\\Estudiante\\MisCursos.cshtml",
+              "RelativeDocumentMoniker": "Views\\Estudiante\\MisCursos.cshtml",
+              "ToolTip": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Views\\Estudiante\\MisCursos.cshtml",
+              "RelativeToolTip": "Views\\Estudiante\\MisCursos.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T18:40:05.872Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -6,23 +6,23 @@ namespace ProyectoFinal_DuranDaniel.Controllers
 {
     public class DocenteController : Controller
     {
-        private readonly AppDbContext _db;
+        private readonly AppDbContext _context;
 
-        public DocenteController(AppDbContext db)
+        public DocenteController(AppDbContext context)
         {
-            _db = db;
+            _context = context;
         }
 
-        private int? ObtenerIdUsuario()
-            => HttpContext.Session.GetInt32("UsuarioId");
+        private int? GetUserId() => HttpContext.Session.GetInt32("UsuarioId");
+        private bool EsDocente() => HttpContext.Session.GetString("UsuarioRol") == "Docente";
 
         // GET: /Docente/MisCursos
         public async Task<IActionResult> MisCursos()
         {
-            var uid = ObtenerIdUsuario();
-            if (uid == null) return RedirectToAction("Login", "Auth");
+            if (!EsDocente()) return RedirectToAction("Login", "Auth");
 
-            var cursos = await _db.Cursos
+            var uid = GetUserId();
+            var cursos = await _context.Cursos
                 .Include(c => c.Carrera)
                 .Include(c => c.Matriculas)
                 .Where(c => c.DocenteId == uid)
@@ -34,10 +34,10 @@ namespace ProyectoFinal_DuranDaniel.Controllers
         // GET: /Docente/DetalleCurso/5
         public async Task<IActionResult> DetalleCurso(int id)
         {
-            var uid = ObtenerIdUsuario();
-            if (uid == null) return RedirectToAction("Login", "Auth");
+            if (!EsDocente()) return RedirectToAction("Login", "Auth");
 
-            var curso = await _db.Cursos
+            var uid = GetUserId();
+            var curso = await _context.Cursos
                 .Include(c => c.Carrera)
                 .Include(c => c.Matriculas)
                     .ThenInclude(m => m.Estudiante)

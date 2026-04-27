@@ -7,224 +7,96 @@ namespace ProyectoFinal_DuranDaniel.Controllers
 {
     public class AdminController : Controller
     {
-        private readonly AppDbContext _db;
+        private readonly AppDbContext _context;
 
-        public AdminController(AppDbContext db)
+        public AdminController(AppDbContext context)
         {
-            _db = db;
+            _context = context;
         }
 
-        // Verifico si el usuario sea administrador
-        private bool EsAdministrador()
-            => HttpContext.Session.GetString("UsuarioRol") == "Administrador";
+        private bool EsAdmin() =>
+            HttpContext.Session.GetString("UsuarioRol") == "Administrador";
 
-        //MENÚ 
-
+        // GET: /Admin/Index
         public IActionResult Index()
         {
-            if (!EsAdministrador()) return RedirectToAction("Login", "Auth");
+            if (!EsAdmin()) return RedirectToAction("Login", "Auth");
             return View();
         }
 
-        // DOCENTES
+        // ─── DOCENTES ────────────────────────────────────────────────────────
 
+        // GET: /Admin/Docentes
         public async Task<IActionResult> Docentes()
         {
-            if (!EsAdministrador()) return RedirectToAction("Login", "Auth");
+            if (!EsAdmin()) return RedirectToAction("Login", "Auth");
 
-            var docentes = await _db.Usuarios
+            var docentes = await _context.Usuarios
                 .Include(u => u.Rol)
-                .Where(u => u.Rol.Nombre == "Docente")
+                .Where(u => u.RolId == 2)
                 .ToListAsync();
 
             return View(docentes);
         }
 
+        // POST: /Admin/AgregarDocente
         [HttpPost]
-        public async Task<IActionResult> AgregarDocente(
-            string nombre, string apellido, string correoPersonal,
-            string identificacion, string telefono, string contrasena)
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> AgregarDocente(string nombre, string apellido,
+            string correoPersonal, string identificacion, string telefono, string contrasena)
         {
-            if (!EsAdministrador()) return RedirectToAction("Login", "Auth");
+            if (!EsAdmin()) return RedirectToAction("Login", "Auth");
 
-            _db.Usuarios.Add(new Usuario
+            if (await _context.Usuarios.AnyAsync(u => u.CorreoPersonal == correoPersonal))
             {
-                Nombre         = nombre,
-                Apellido       = apellido,
+                TempData["Error"] = "Ese correo ya está registrado.";
+                return RedirectToAction("Docentes");
+            }
+
+            _context.Usuarios.Add(new Usuario
+            {
+                Nombre = nombre,
+                Apellido = apellido,
                 CorreoPersonal = correoPersonal,
                 Identificacion = identificacion,
-                Telefono       = telefono,
+                Telefono = telefono,
                 ContrasenaHash = BCrypt.Net.BCrypt.HashPassword(contrasena),
-                RolId          = 2  // Docente
+                RolId = 2
             });
-            await _db.SaveChangesAsync();
+            await _context.SaveChangesAsync();
+            TempData["Mensaje"] = "Docente agregado correctamente.";
             return RedirectToAction("Docentes");
         }
 
+        // POST: /Admin/EliminarDocente
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> EliminarDocente(int id)
         {
-            if (!EsAdministrador()) return RedirectToAction("Login", "Auth");
+            if (!EsAdmin()) return RedirectToAction("Login", "Auth");
 
-            var docente = await _db.Usuarios.FindAsync(id);
+            var docente = await _context.Usuarios.FindAsync(id);
             if (docente != null)
             {
-                _db.Usuarios.Remove(docente);
-                await _db.SaveChangesAsync();
+                _context.Usuarios.Remove(docente);
+                await _context.SaveChangesAsync();
             }
             return RedirectToAction("Docentes");
         }
 
-        //ESTUDIANTES 
+        // ─── ESTUDIANTES ─────────────────────────────────────────────────────
 
+        // GET: /Admin/Estudiantes
         public async Task<IActionResult> Estudiantes()
         {
-            if (!EsAdministrador()) return RedirectToAction("Login", "Auth");
+            if (!EsAdmin()) return RedirectToAction("Login", "Auth");
 
-            var estudiantes = await _db.Usuarios
+            var estudiantes = await _context.Usuarios
                 .Include(u => u.Rol)
-                .Where(u => u.Rol.Nombre == "Estudiante")
+                .Where(u => u.RolId == 3)
                 .ToListAsync();
 
             return View(estudiantes);
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> EliminarEstudiante(int id)
-        {
-            if (!EsAdministrador()) return RedirectToAction("Login", "Auth");
-
-            var estudiante = await _db.Usuarios.FindAsync(id);
-            if (estudiante != null)
-            {
-                _db.Usuarios.Remove(estudiante);
-                await _db.SaveChangesAsync();
-            }
-            return RedirectToAction("Estudiantes");
-        }
-
-        //CARRERAS
-
-        public async Task<IActionResult> Carreras()
-        {
-            if (!EsAdministrador()) return RedirectToAction("Login", "Auth");
-            return View(await _db.Carreras.ToListAsync());
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> AgregarCarrera(string nombre, string descripcion)
-        {
-            if (!EsAdministrador()) return RedirectToAction("Login", "Auth");
-
-            _db.Carreras.Add(new Carrera { Nombre = nombre, Descripcion = descripcion });
-            await _db.SaveChangesAsync();
-            return RedirectToAction("Carreras");
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> EditarCarrera(int id, string nombre, string descripcion)
-        {
-            if (!EsAdministrador()) return RedirectToAction("Login", "Auth");
-
-            var carrera = await _db.Carreras.FindAsync(id);
-            if (carrera != null)
-            {
-                carrera.Nombre      = nombre;
-                carrera.Descripcion = descripcion;
-                await _db.SaveChangesAsync();
-            }
-            return RedirectToAction("Carreras");
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> EliminarCarrera(int id)
-        {
-            if (!EsAdministrador()) return RedirectToAction("Login", "Auth");
-
-            var carrera = await _db.Carreras.FindAsync(id);
-            if (carrera != null)
-            {
-                _db.Carreras.Remove(carrera);
-                await _db.SaveChangesAsync();
-            }
-            return RedirectToAction("Carreras");
-        }
-
-        //CURSOS
-
-        public async Task<IActionResult> Cursos()
-        {
-            if (!EsAdministrador()) return RedirectToAction("Login", "Auth");
-
-            var cursos = await _db.Cursos
-                .Include(c => c.Carrera)
-                .Include(c => c.Docente)
-                .ToListAsync();
-
-            ViewBag.Carreras = await _db.Carreras.ToListAsync();
-            ViewBag.Docentes = await _db.Usuarios
-                .Include(u => u.Rol)
-                .Where(u => u.Rol.Nombre == "Docente")
-                .ToListAsync();
-
-            return View(cursos);
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> AgregarCurso(
-            string nombre, string descripcion, int carreraId, int docenteId)
-        {
-            if (!EsAdministrador()) return RedirectToAction("Login", "Auth");
-
-            _db.Cursos.Add(new Curso
-            {
-                Nombre      = nombre,
-                Descripcion = descripcion,
-                CarreraId   = carreraId,
-                DocenteId   = docenteId
-            });
-            await _db.SaveChangesAsync();
-            return RedirectToAction("Cursos");
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> EditarCurso(
-            int id, string nombre, string descripcion, int carreraId, int docenteId)
-        {
-            if (!EsAdministrador()) return RedirectToAction("Login", "Auth");
-
-            var curso = await _db.Cursos.FindAsync(id);
-            if (curso != null)
-            {
-                curso.Nombre      = nombre;
-                curso.Descripcion = descripcion;
-                curso.CarreraId   = carreraId;
-                curso.DocenteId   = docenteId;
-                await _db.SaveChangesAsync();
-            }
-            return RedirectToAction("Cursos");
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> EliminarCurso(int id)
-        {
-            if (!EsAdministrador()) return RedirectToAction("Login", "Auth");
-
-            var curso = await _db.Cursos.FindAsync(id);
-            if (curso != null)
-            {
-                _db.Cursos.Remove(curso);
-                await _db.SaveChangesAsync();
-            }
-            return RedirectToAction("Cursos");
-        }
-
-        //ROLES 
-
-        public async Task<IActionResult> Roles()
-        {
-            if (!EsAdministrador()) return RedirectToAction("Login", "Auth");
-            return View(await _db.Roles.ToListAsync());
         }
     }
 }

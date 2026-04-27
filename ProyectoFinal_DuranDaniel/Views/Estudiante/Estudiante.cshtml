@@ -1,0 +1,119 @@
+﻿@model IEnumerable<ProyectoFinal_DuranDaniel.Models.Curso>
+@{
+    ViewData["Title"] = "Cursos";
+    Layout = null;
+    var matriculados = ViewBag.Matriculados as List<int> ?? new List<int>();
+    var carrera = ViewBag.Carrera as ProyectoFinal_DuranDaniel.Models.Carrera;
+}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Cursos — @carrera?.Nombre</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f0f2f5; padding: 2rem; }
+        .card { background: white; padding: 2rem; border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(0,0,0,.1); max-width: 650px; margin: auto; }
+        h2 { color: #333; }
+        .sub { color: #666; font-size: .9rem; margin-bottom: 1.5rem; }
+        .item { border: 1px solid #e0e0e0; border-radius: 6px; padding: 1rem;
+                margin-bottom: .8rem; display: flex;
+                justify-content: space-between; align-items: center; }
+        .nombre { font-weight: bold; }
+        .docente { font-size: .85rem; color: #666; }
+        .badge { padding: .35rem .9rem; background: #e8f5e9; color: #2e7d32;
+                 border-radius: 12px; font-size: .8rem; font-weight: bold; }
+        .btn-mat { padding: .4rem 1rem; background: #34a853; color: white;
+                   border: none; border-radius: 4px; cursor: pointer; font-size: .85rem; }
+        .btn-mat:hover { background: #2e7d32; }
+        .btn-mat:disabled { background: #aaa; cursor: not-allowed; }
+        .toast { display: none; position: fixed; bottom: 2rem; right: 2rem;
+                 padding: .8rem 1.5rem; border-radius: 6px; color: white;
+                 font-size: .9rem; z-index: 999; }
+        .toast.ok  { background: #34a853; }
+        .toast.err { background: #e53935; }
+        a.back { display: inline-block; margin-top: 1rem;
+                 color: #1a73e8; text-decoration: none; }
+        a.mis  { display: block; margin-top: .8rem; padding: .7rem;
+                 background: #1a73e8; color: white; text-decoration: none;
+                 border-radius: 4px; text-align: center; }
+        a.mis:hover { background: #1558b0; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>@carrera?.Nombre</h2>
+        <div class="sub">Seleccioná los cursos en los que querés matricularte</div>
+
+        @foreach (var c in Model)
+        {
+            <div class="item" id="item-@c.Id">
+                <div>
+                    <div class="nombre">@c.Nombre</div>
+                    <div class="docente">Docente: @c.Docente?.Nombre @c.Docente?.Apellido</div>
+                </div>
+
+                @if (matriculados.Contains(c.Id))
+                {
+                    <span class="badge">✓ Matriculado</span>
+                }
+                else
+                {
+                    <button class="btn-mat" onclick="matricular(@c.Id, this)">
+                        Matricularme
+                    </button>
+                }
+            </div>
+        }
+
+        <a class="mis" href="/Estudiante/MisCursos">Ver mis cursos matriculados</a>
+        <a class="back" href="/Estudiante/Carreras">← Volver a carreras</a>
+    </div>
+
+    <!-- Toast de notificación -->
+    <div class="toast" id="toast"></div>
+
+    <script>
+        function mostrarToast(msg, tipo) {
+            const t = document.getElementById('toast');
+            t.textContent = msg;
+            t.className = 'toast ' + tipo;
+            t.style.display = 'block';
+            setTimeout(() => t.style.display = 'none', 3000);
+        }
+
+        async function matricular(cursoId, btn) {
+            btn.disabled = true;
+            btn.textContent = 'Procesando...';
+
+            const token = document.querySelector('input[name="__RequestVerificationToken"]')?.value ?? '';
+
+            const resp = await fetch('/Estudiante/Matricular', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'RequestVerificationToken': token
+                },
+                body: JSON.stringify({ cursoId })
+            });
+
+            const data = await resp.json();
+
+            if (data.ok) {
+                // Reemplaza el botón por el badge sin recargar
+                const item = document.getElementById('item-' + cursoId);
+                const btnEl = item.querySelector('button');
+                const badge = document.createElement('span');
+                badge.className = 'badge';
+                badge.textContent = '✓ Matriculado';
+                btnEl.replaceWith(badge);
+                mostrarToast(data.msg, 'ok');
+            } else {
+                btn.disabled = false;
+                btn.textContent = 'Matricularme';
+                mostrarToast(data.msg, 'err');
+            }
+        }
+    </script>
+</body>
+</html>

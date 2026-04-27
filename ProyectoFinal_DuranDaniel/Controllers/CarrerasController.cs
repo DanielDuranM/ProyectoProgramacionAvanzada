@@ -14,8 +14,7 @@ namespace ProyectoFinal_DuranDaniel.Controllers
             _context = context;
         }
 
-        // Cualquier usuario logueado puede ver la lista
-        // GET: /Carreras
+        // GET: /Carreras/Index
         public async Task<IActionResult> Index()
         {
             var rol = HttpContext.Session.GetString("UsuarioRol");
@@ -25,7 +24,6 @@ namespace ProyectoFinal_DuranDaniel.Controllers
             return View(await _context.Carreras.ToListAsync());
         }
 
-        // Solo Administrador puede crear
         // GET: /Carreras/Create
         public IActionResult Create()
         {
@@ -53,8 +51,7 @@ namespace ProyectoFinal_DuranDaniel.Controllers
             return View(carrera);
         }
 
-        // Solo Administrador puede editar
-        // GET: /Carreras/Edit/5
+        // GET: /Carreras/Edit/
         public async Task<IActionResult> Edit(int? id)
         {
             if (HttpContext.Session.GetString("UsuarioRol") != "Administrador")
@@ -66,7 +63,7 @@ namespace ProyectoFinal_DuranDaniel.Controllers
             return View(carrera);
         }
 
-        // POST: /Carreras/Edit/5
+        // POST: /Carreras/Edit/
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Nombre,Descripcion")] Carrera carrera)
@@ -80,13 +77,13 @@ namespace ProyectoFinal_DuranDaniel.Controllers
             {
                 _context.Update(carrera);
                 await _context.SaveChangesAsync();
+                TempData["Mensaje"] = "Carrera actualizada correctamente.";
                 return RedirectToAction(nameof(Index));
             }
             return View(carrera);
         }
 
-        // Solo Administrador puede eliminar
-        // GET: /Carreras/Delete/5
+        // GET: /Carreras/Delete/
         public async Task<IActionResult> Delete(int? id)
         {
             if (HttpContext.Session.GetString("UsuarioRol") != "Administrador")
@@ -112,6 +109,7 @@ namespace ProyectoFinal_DuranDaniel.Controllers
             {
                 _context.Carreras.Remove(carrera);
                 await _context.SaveChangesAsync();
+                TempData["Mensaje"] = "Carrera eliminada correctamente.";
             }
             return RedirectToAction(nameof(Index));
         }

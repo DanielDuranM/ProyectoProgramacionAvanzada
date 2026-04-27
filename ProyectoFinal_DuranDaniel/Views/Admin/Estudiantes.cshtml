@@ -1,0 +1,84 @@
+﻿@model IEnumerable<ProyectoFinal_DuranDaniel.Models.Usuario>
+@{
+    ViewData["Title"] = "Estudiantes";
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Estudiantes Registrados</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f2f5;
+            padding: 2rem;
+        }
+
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+
+        th {
+            background: #1a73e8;
+            color: white;
+            padding: .7rem 1rem;
+            text-align: left;
+        }
+
+        td {
+            padding: .6rem 1rem;
+            border-bottom: 1px solid #eee;
+        }
+
+        a.back {
+            display: inline-block;
+            margin-top: 1rem;
+            color: #1a73e8;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Estudiantes Registrados</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Correo</th>
+                    <th>Teléfono</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var e in Model)
+                {
+                    <tr>
+                        <td>@e.Id</td>
+                        <td>@e.Nombre</td>
+                        <td>@e.Apellido</td>
+                        <td>@e.CorreoPersonal</td>
+                        <td>@e.Telefono</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <a class="back" href="/Admin/Index">← Volver al panel</a>
+    </div>
+</body>
+</html>

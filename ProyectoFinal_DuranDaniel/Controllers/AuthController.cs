@@ -37,7 +37,7 @@ namespace ProyectoFinal_DuranDaniel.Controllers
                 Identificacion = identificacion,
                 Telefono = telefono,
                 ContrasenaHash = BCrypt.Net.BCrypt.HashPassword(contrasena),
-                RolId = 3   // Estudiante por defecto
+                RolId = 3
             };
 
             _context.Usuarios.Add(usuario);
