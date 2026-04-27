@@ -7396,11 +7396,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\ProyectoFinal_DuranDaniel.csproj",
+      "projectUniqueName": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\ProyectoFinal_DuranDaniel.csproj",
       "projectName": "ProyectoFinal_DuranDaniel",
-      "projectPath": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\ProyectoFinal_DuranDaniel.csproj",
+      "projectPath": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\ProyectoFinal_DuranDaniel.csproj",
       "packagesPath": "C:\\Users\\danon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\obj\\",
+      "outputPath": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

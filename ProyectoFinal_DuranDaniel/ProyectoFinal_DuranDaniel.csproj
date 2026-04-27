@@ -7,6 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Views\Estudiante\Carreras.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Views\Estudiante\Carreras.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="BCrypt.Net-Next" Version="4.1.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.25">
       <PrivateAssets>all</PrivateAssets>
@@ -22,7 +30,6 @@
 
   <ItemGroup>
     <Folder Include="Views\Docente\" />
-    <Folder Include="Views\Estudiante\" />
   </ItemGroup>
 
 </Project>

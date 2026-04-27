@@ -1,122 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\",
+  "WorkspaceRootPath": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\source\\repos\\proyectofinal_durandaniel\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\onedrive\\documents\\github\\proyectoprogramacionavanzada\\proyectofinal_durandaniel\\views\\estudiante\\carreras.cshtml||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:views\\estudiante\\carreras.cshtml||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\source\\repos\\proyectofinal_durandaniel\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\source\\repos\\proyectofinal_durandaniel\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\source\\repos\\proyectofinal_durandaniel\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\source\\repos\\proyectofinal_durandaniel\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\source\\repos\\proyectofinal_durandaniel\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\source\\repos\\proyectofinal_durandaniel\\models\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:models\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\source\\repos\\proyectofinal_durandaniel\\models\\carrera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:models\\carrera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\source\\repos\\proyectofinal_durandaniel\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\source\\repos\\proyectofinal_durandaniel\\models\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:models\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\source\\repos\\proyectofinal_durandaniel\\models\\matricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:models\\matricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\source\\repos\\proyectofinal_durandaniel\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\source\\repos\\proyectofinal_durandaniel\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\source\\repos\\proyectofinal_durandaniel\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\source\\repos\\proyectofinal_durandaniel\\controllers\\rolscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:controllers\\rolscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\source\\repos\\proyectofinal_durandaniel\\controllers\\matriculascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:controllers\\matriculascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\source\\repos\\proyectofinal_durandaniel\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\source\\repos\\proyectofinal_durandaniel\\controllers\\estudiantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\onedrive\\documents\\github\\proyectoprogramacionavanzada\\proyectofinal_durandaniel\\controllers\\estudiantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:controllers\\estudiantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\source\\repos\\proyectofinal_durandaniel\\controllers\\docentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:controllers\\docentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\source\\repos\\proyectofinal_durandaniel\\controllers\\cursoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:controllers\\cursoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\source\\repos\\proyectofinal_durandaniel\\controllers\\carrerascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:controllers\\carrerascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\source\\repos\\proyectofinal_durandaniel\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\onedrive\\documents\\github\\proyectoprogramacionavanzada\\proyectofinal_durandaniel\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\source\\repos\\proyectofinal_durandaniel\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\source\\repos\\proyectofinal_durandaniel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\source\\repos\\proyectofinal_durandaniel\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\source\\repos\\proyectofinal_durandaniel\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\source\\repos\\proyectofinal_durandaniel\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\source\\repos\\proyectofinal_durandaniel\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|c:\\users\\danon\\source\\repos\\proyectofinal_durandaniel\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B743821-1893-45BA-93FE-B388A73B3C88}|ProyectoFinal_DuranDaniel.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -126,384 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T23:19:18.107Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "RolsController.cs",
-              "DocumentMoniker": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Controllers\\RolsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RolsController.cs",
-              "ToolTip": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Controllers\\RolsController.cs",
-              "RelativeToolTip": "Controllers\\RolsController.cs",
-              "ViewState": "AgIAAJwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T23:34:13.824Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Controllers\\UsuariosController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Controllers\\UsuariosController.cs",
-              "RelativeToolTip": "Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T23:33:28.238Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T23:09:14.339Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Carrera.cs",
-              "DocumentMoniker": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Models\\Carrera.cs",
-              "RelativeDocumentMoniker": "Models\\Carrera.cs",
-              "ToolTip": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Models\\Carrera.cs",
-              "RelativeToolTip": "Models\\Carrera.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T23:08:36.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Curso.cs",
-              "DocumentMoniker": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Models\\Curso.cs",
-              "RelativeDocumentMoniker": "Models\\Curso.cs",
-              "ToolTip": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Models\\Curso.cs",
-              "RelativeToolTip": "Models\\Curso.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T23:08:46.186Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T23:31:27.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Matricula.cs",
-              "DocumentMoniker": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Models\\Matricula.cs",
-              "RelativeDocumentMoniker": "Models\\Matricula.cs",
-              "ToolTip": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Models\\Matricula.cs",
-              "RelativeToolTip": "Models\\Matricula.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T23:08:52.714Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Rol.cs",
-              "DocumentMoniker": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Models\\Rol.cs",
-              "RelativeDocumentMoniker": "Models\\Rol.cs",
-              "ToolTip": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Models\\Rol.cs",
-              "RelativeToolTip": "Models\\Rol.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T23:08:14.025Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Models\\Usuario.cs",
-              "RelativeToolTip": "Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T23:08:26.576Z",
+              "DocumentIndex": 0,
+              "Title": "Carreras.cshtml",
+              "DocumentMoniker": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Views\\Estudiante\\Carreras.cshtml",
+              "RelativeDocumentMoniker": "Views\\Estudiante\\Carreras.cshtml",
+              "ToolTip": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Views\\Estudiante\\Carreras.cshtml",
+              "RelativeToolTip": "Views\\Estudiante\\Carreras.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAIwCUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T02:16:38.526Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Views\\Admin\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
-              "ToolTip": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Views\\Admin\\Index.cshtml",
-              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-17T23:24:44.882Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Views\\Auth\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Auth\\Login.cshtml",
-              "ToolTip": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Views\\Auth\\Login.cshtml",
-              "RelativeToolTip": "Views\\Auth\\Login.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-17T23:24:13.752Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Views\\Auth\\Register.cshtml",
-              "RelativeDocumentMoniker": "Views\\Auth\\Register.cshtml",
-              "ToolTip": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Views\\Auth\\Register.cshtml",
-              "RelativeToolTip": "Views\\Auth\\Register.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-17T23:23:53.238Z",
+              "Title": "EstudianteController.cs",
+              "DocumentMoniker": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Controllers\\EstudianteController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EstudianteController.cs",
+              "ToolTip": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Controllers\\EstudianteController.cs",
+              "RelativeToolTip": "Controllers\\EstudianteController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T02:00:43.255Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-17T23:31:42.802Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-17T23:24:31.441Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "MatriculasController.cs",
-              "DocumentMoniker": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Controllers\\MatriculasController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MatriculasController.cs",
-              "ToolTip": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Controllers\\MatriculasController.cs",
-              "RelativeToolTip": "Controllers\\MatriculasController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T23:34:38.034Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T23:22:31.393Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "EstudianteController.cs",
-              "DocumentMoniker": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Controllers\\EstudianteController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EstudianteController.cs",
-              "ToolTip": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Controllers\\EstudianteController.cs",
-              "RelativeToolTip": "Controllers\\EstudianteController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T23:21:35.379Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "DocenteController.cs",
-              "DocumentMoniker": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Controllers\\DocenteController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DocenteController.cs",
-              "ToolTip": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Controllers\\DocenteController.cs",
-              "RelativeToolTip": "Controllers\\DocenteController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T23:22:09.935Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "CursoesController.cs",
-              "DocumentMoniker": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Controllers\\CursoesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CursoesController.cs",
-              "ToolTip": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Controllers\\CursoesController.cs",
-              "RelativeToolTip": "Controllers\\CursoesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T23:32:41.289Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CarrerasController.cs",
-              "DocumentMoniker": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Controllers\\CarrerasController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CarrerasController.cs",
-              "ToolTip": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Controllers\\CarrerasController.cs",
-              "RelativeToolTip": "Controllers\\CarrerasController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T23:32:14.091Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
               "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Controllers\\AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\danon\\OneDrive\\Documents\\GitHub\\ProyectoProgramacionAvanzada\\ProyectoFinal_DuranDaniel\\Controllers\\AdminController.cs",
               "RelativeToolTip": "Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T23:19:59.665Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-17T23:09:57.806Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
-              "ToolTip": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-17T23:31:44.53Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-17T23:31:43.806Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-17T23:31:39.654Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-17T23:31:38.961Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-17T23:31:37.894Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\danon\\source\\repos\\ProyectoFinal_DuranDaniel\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T23:11:02.262Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-27T02:00:20.215Z"
             }
           ]
         }
