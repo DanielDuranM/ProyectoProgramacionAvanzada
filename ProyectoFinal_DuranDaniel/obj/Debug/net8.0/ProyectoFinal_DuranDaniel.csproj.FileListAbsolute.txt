@@ -509,3 +509,14 @@ C:\Users\danon\OneDrive\Documents\GitHub\ProyectoProgramacionAvanzada\ProyectoFi
 C:\Users\danon\OneDrive\Documents\GitHub\ProyectoProgramacionAvanzada\ProyectoFinal_DuranDaniel\obj\Debug\net8.0\Proyecto.C9AF667E.Up2Date
 C:\Users\danon\OneDrive\Documents\GitHub\ProyectoProgramacionAvanzada\ProyectoFinal_DuranDaniel\obj\Debug\net8.0\ProyectoFinal_DuranDaniel.genruntimeconfig.cache
 C:\Users\danon\OneDrive\Documents\GitHub\ProyectoProgramacionAvanzada\ProyectoFinal_DuranDaniel\obj\Debug\net8.0\ref\ProyectoFinal_DuranDaniel.dll
+C:\Users\danon\OneDrive\Documents\GitHub\ProyectoProgramacionAvanzada\ProyectoFinal_DuranDaniel\bin\Debug\net8.0\proyectofinal-danielduran-firebase-adminsdk-fbsvc-289761261d.json
+C:\Users\danon\OneDrive\Documents\GitHub\ProyectoProgramacionAvanzada\ProyectoFinal_DuranDaniel\bin\Debug\net8.0\Firebase.Storage.dll
+C:\Users\danon\OneDrive\Documents\GitHub\ProyectoProgramacionAvanzada\ProyectoFinal_DuranDaniel\bin\Debug\net8.0\Google.Api.Gax.dll
+C:\Users\danon\OneDrive\Documents\GitHub\ProyectoProgramacionAvanzada\ProyectoFinal_DuranDaniel\bin\Debug\net8.0\Google.Api.Gax.Rest.dll
+C:\Users\danon\OneDrive\Documents\GitHub\ProyectoProgramacionAvanzada\ProyectoFinal_DuranDaniel\bin\Debug\net8.0\Google.Apis.dll
+C:\Users\danon\OneDrive\Documents\GitHub\ProyectoProgramacionAvanzada\ProyectoFinal_DuranDaniel\bin\Debug\net8.0\Google.Apis.Auth.dll
+C:\Users\danon\OneDrive\Documents\GitHub\ProyectoProgramacionAvanzada\ProyectoFinal_DuranDaniel\bin\Debug\net8.0\Google.Apis.Core.dll
+C:\Users\danon\OneDrive\Documents\GitHub\ProyectoProgramacionAvanzada\ProyectoFinal_DuranDaniel\bin\Debug\net8.0\Google.Apis.Storage.v1.dll
+C:\Users\danon\OneDrive\Documents\GitHub\ProyectoProgramacionAvanzada\ProyectoFinal_DuranDaniel\bin\Debug\net8.0\Google.Cloud.Storage.V1.dll
+C:\Users\danon\OneDrive\Documents\GitHub\ProyectoProgramacionAvanzada\ProyectoFinal_DuranDaniel\bin\Debug\net8.0\System.Management.dll
+C:\Users\danon\OneDrive\Documents\GitHub\ProyectoProgramacionAvanzada\ProyectoFinal_DuranDaniel\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Management.dll

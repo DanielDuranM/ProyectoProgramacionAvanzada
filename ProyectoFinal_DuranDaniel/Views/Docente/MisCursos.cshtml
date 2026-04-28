@@ -1,115 +1,48 @@
-﻿@model IEnumerable<ProyectoFinal_DuranDaniel.Models.Curso>
+@model IEnumerable<ProyectoFinal_DuranDaniel.Models.Curso>
 @{
+    Layout = "~/Views/Shared/_Layout.cshtml";
     ViewData["Title"] = "Mis Cursos";
-    Layout = null;
 }
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8" />
-    <title>Mis Cursos Asignados</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f0f2f5;
-            padding: 2rem;
-        }
 
-        .card {
-            background: white;
-            padding: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,.1);
-            max-width: 650px;
-            margin: auto;
-        }
+<div class="container mt-4">
+    <h3 class="fw-bold mb-4">📖 Mis Cursos</h3>
 
-        h2 {
-            color: #333;
-            margin-bottom: 1.5rem;
-        }
-
-        .empty {
-            color: #666;
-            text-align: center;
-            padding: 2rem;
-        }
-
-        .item {
-            border: 1px solid #e0e0e0;
-            border-radius: 6px;
-            padding: 1rem;
-            margin-bottom: .8rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .nombre {
-            font-weight: bold;
-            font-size: 1.05rem;
-        }
-
-        .meta {
-            font-size: .85rem;
-            color: #666;
-            margin-top: .2rem;
-        }
-
-        .badge {
-            padding: .35rem .9rem;
-            background: #e3f2fd;
-            color: #1565c0;
-            border-radius: 12px;
-            font-size: .8rem;
-            font-weight: bold;
-        }
-
-        a.btn {
-            padding: .45rem 1rem;
-            background: #1a73e8;
-            color: white;
-            text-decoration: none;
-            border-radius: 4px;
-            font-size: .85rem;
-        }
-
-            a.btn:hover {
-                background: #1558b0;
-            }
-
-        a.back {
-            display: inline-block;
-            margin-top: 1rem;
-            color: #1a73e8;
-            text-decoration: none;
-        }
-    </style>
-</head>
-<body>
-    <div class="card">
-        <h2>Mis Cursos Asignados</h2>
-
-        @if (!Model.Any())
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info">No tenés cursos asignados actualmente.</div>
+    }
+    else
+    {
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+        @foreach (var curso in Model)
         {
-            <div class="empty">No tenés cursos asignados aún.</div>
-        }
-        else
-        {
-            @foreach (var c in Model)
-            {
-                <div class="item">
-                    <div>
-                        <div class="nombre">@c.Nombre</div>
-                        <div class="meta">Carrera: @c.Carrera.Nombre</div>
-                        <div class="meta">Estudiantes matriculados: @c.Matriculas.Count</div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="border-left:4px solid #1a73e8 !important;">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">@curso.Nombre</h5>
+                        <p class="card-text text-muted small">@curso.Carrera?.Nombre</p>
+                        <p class="card-text small">@curso.Descripcion</p>
+                        <div class="d-flex gap-2 mt-2">
+                            <span class="badge bg-secondary">
+                                👥 @curso.Matriculas.Count estudiantes
+                            </span>
+                        </div>
                     </div>
-                    <a class="btn" href="/Docente/DetalleCurso/@c.Id">Ver detalle</a>
+                    <div class="card-footer bg-transparent d-flex gap-2">
+                        <a asp-action="DetalleCurso" asp-controller="Docente"
+                           asp-route-id="@curso.Id"
+                           class="btn btn-sm btn-outline-primary">
+                            👁️ Ver estudiantes
+                        </a>
+                        <a asp-action="Curso" asp-controller="Material"
+                           asp-route-cursoId="@curso.Id"
+                           class="btn btn-sm btn-primary">
+                            ☁️ Materiales
+                        </a>
+                    </div>
                 </div>
-            }
+            </div>
         }
-
-        <a class="back" href="/Home/Index">← Volver al inicio</a>
-    </div>
-</body>
-</html>
+        </div>
+    }
+</div>

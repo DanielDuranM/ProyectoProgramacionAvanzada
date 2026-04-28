@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using ProyectoFinal_DuranDaniel.Models;
 
 namespace ProyectoFinal_DuranDaniel.Data
@@ -7,11 +7,12 @@ namespace ProyectoFinal_DuranDaniel.Data
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
-        public DbSet<Rol> Roles { get; set; }
-        public DbSet<Usuario> Usuarios { get; set; }
-        public DbSet<Carrera> Carreras { get; set; }
-        public DbSet<Curso> Cursos { get; set; }
-        public DbSet<Matricula> Matriculas { get; set; }
+        public DbSet<Rol>          Roles          { get; set; }
+        public DbSet<Usuario>      Usuarios       { get; set; }
+        public DbSet<Carrera>      Carreras       { get; set; }
+        public DbSet<Curso>        Cursos         { get; set; }
+        public DbSet<Matricula>    Matriculas     { get; set; }
+        public DbSet<MaterialCurso> MaterialesCurso { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -44,6 +45,18 @@ namespace ProyectoFinal_DuranDaniel.Data
                 .WithMany(c => c.Matriculas)
                 .HasForeignKey(m => m.CursoId)
                 .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<MaterialCurso>()
+                .HasOne(mc => mc.Curso)
+                .WithMany()
+                .HasForeignKey(mc => mc.CursoId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<MaterialCurso>()
+                .HasOne(mc => mc.SubidoPor)
+                .WithMany()
+                .HasForeignKey(mc => mc.SubidoPorId)
+                .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }

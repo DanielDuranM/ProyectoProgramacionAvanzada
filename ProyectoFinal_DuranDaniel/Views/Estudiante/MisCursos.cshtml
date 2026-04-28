@@ -1,106 +1,39 @@
-﻿@model IEnumerable<ProyectoFinal_DuranDaniel.Models.Matricula>
+@model IEnumerable<ProyectoFinal_DuranDaniel.Models.Matricula>
 @{
+    Layout = "~/Views/Shared/_Layout.cshtml";
     ViewData["Title"] = "Mis Cursos";
-    Layout = null;
 }
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8" />
-    <title>Mis Cursos Matriculados</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f0f2f5;
-            padding: 2rem;
-        }
 
-        .card {
-            background: white;
-            padding: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,.1);
-            max-width: 650px;
-            margin: auto;
-        }
+<div class="container mt-4">
+    <h3 class="fw-bold mb-4">🎓 Mis Cursos Matriculados</h3>
 
-        h2 {
-            color: #333;
-            margin-bottom: 1.5rem;
-        }
-
-        .empty {
-            color: #666;
-            text-align: center;
-            padding: 2rem;
-        }
-
-        .item {
-            border: 1px solid #e0e0e0;
-            border-radius: 6px;
-            padding: 1rem;
-            margin-bottom: .8rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .nombre {
-            font-weight: bold;
-        }
-
-        .meta {
-            font-size: .85rem;
-            color: #666;
-            margin-top: .2rem;
-        }
-
-        .badge {
-            padding: .35rem .9rem;
-            background: #e8f5e9;
-            color: #2e7d32;
-            border-radius: 12px;
-            font-size: .8rem;
-            font-weight: bold;
-        }
-
-        a.back {
-            display: inline-block;
-            margin-top: 1rem;
-            color: #1a73e8;
-            text-decoration: none;
-        }
-    </style>
-</head>
-<body>
-    <div class="card">
-        <h2>Mis Cursos Matriculados</h2>
-
-        @if (!Model.Any())
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info">Aún no estás matriculado en ningún curso.</div>
+    }
+    else
+    {
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+        @foreach (var m in Model)
         {
-            <div class="empty">No tenés cursos matriculados aún.</div>
-        }
-        else
-        {
-            @foreach (var m in Model)
-            {
-                <div class="item">
-                    <div>
-                        <div class="nombre">@m.Curso.Nombre</div>
-                        <div class="meta">
-                            Carrera: @m.Curso.Carrera.Nombre &nbsp;|&nbsp;
-                            Docente: @m.Curso.Docente.Nombre @m.Curso.Docente.Apellido
-                        </div>
-                        <div class="meta">
-                            Matriculado el: @m.FechaMatricula.ToString("dd/MM/yyyy")
-                        </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0">
+                    <div class="card-body">
+                        <h5 class="fw-bold">@m.Curso?.Nombre</h5>
+                        <p class="text-muted small">@m.Curso?.Carrera?.Nombre</p>
+                        <p class="small">Docente: @m.Curso?.Docente?.Nombre @m.Curso?.Docente?.Apellido</p>
+                        <span class="badge bg-success">@m.Estado</span>
                     </div>
-                    <span class="badge">@m.Estado</span>
+                    <div class="card-footer bg-transparent">
+                        <a asp-action="Curso" asp-controller="Material"
+                           asp-route-cursoId="@m.CursoId"
+                           class="btn btn-sm btn-primary">
+                            ☁️ Ver materiales
+                        </a>
+                    </div>
                 </div>
-            }
+            </div>
         }
-
-        <a class="back" href="/Estudiante/Carreras">← Volver a carreras</a>
-    </div>
-</body>
-</html>
+        </div>
+    }
+</div>

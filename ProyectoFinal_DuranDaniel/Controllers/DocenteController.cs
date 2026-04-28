@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ProyectoFinal_DuranDaniel.Data;
 
@@ -13,15 +13,15 @@ namespace ProyectoFinal_DuranDaniel.Controllers
             _context = context;
         }
 
-        private int? GetUserId() => HttpContext.Session.GetInt32("UsuarioId");
-        private bool EsDocente() => HttpContext.Session.GetString("UsuarioRol") == "Docente";
+        private int?   GetUserId()  => HttpContext.Session.GetInt32("UsuarioId");
+        private bool   EsDocente()  => HttpContext.Session.GetString("UsuarioRol") == "Docente";
 
         // GET: /Docente/MisCursos
         public async Task<IActionResult> MisCursos()
         {
             if (!EsDocente()) return RedirectToAction("Login", "Auth");
 
-            var uid = GetUserId();
+            var uid    = GetUserId();
             var cursos = await _context.Cursos
                 .Include(c => c.Carrera)
                 .Include(c => c.Matriculas)
@@ -36,7 +36,7 @@ namespace ProyectoFinal_DuranDaniel.Controllers
         {
             if (!EsDocente()) return RedirectToAction("Login", "Auth");
 
-            var uid = GetUserId();
+            var uid   = GetUserId();
             var curso = await _context.Cursos
                 .Include(c => c.Carrera)
                 .Include(c => c.Matriculas)
